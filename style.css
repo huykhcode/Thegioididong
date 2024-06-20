@@ -1,0 +1,482 @@
+.full-body{
+  background-color: #ccc;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img2{
+  width: 100%;
+  align-items: center;
+}
+.menu-tgdt{
+    background-color: yellow;
+}
+nav{
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav ul li a{
+    color: white;
+}
+nav ul li:nth-child(3) input{
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+nav ul li:nth-child(3){
+    position: relative;
+}
+nav ul li:nth-child(3) i{
+    position: absolute;
+    font-size: 15px;
+    right: 12px;
+    line-height: 30px;
+    cursor: pointer;
+}
+nav ul li:nth-child(4) button{
+    height: 30px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.555);
+}
+nav ul li:nth-child(5) button{
+    height: 50px;
+    padding: 0 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.555);
+}
+.menu-2{
+    background-color: black;
+    padding: 30px 30px;
+}
+.menu-2 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-2 ul li i{
+    color: white;
+    cursor: pointer;
+}
+.menu-2 ul li{
+    color: white;
+    cursor: pointer;
+}
+.imglast1 img{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.slick-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+    padding: 10px 20px;
+}
+.slick-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+    padding: 10px 20px;
+}
+.img-sale{
+    display: flex;
+}
+.img-sale img{
+    justify-content: space-between;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.img-glaxy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-glaxy div {
+    text-align: center;
+  }
+  
+  .img-glaxyin {
+    max-width: 100%; 
+    height: auto;
+  }
+  .img-sale2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-sale2 div {
+    text-align: center;
+  }
+  
+  .img-glaxyin2 {
+    max-width: 100%; 
+    height: auto;
+  }
+  .img-sale4{
+    background-color: #b10522;
+    border-radius: 10px;
+    position: relative;
+    height: 700px;
+  }
+  .img-sale3 {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: center;
+    width: 200px; 
+    height: 500px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    cursor: pointer;
+    list-style: none;
+  }
+  .img-sale3 li:nth-child(1):hover{
+    color: aqua;
+  }
+  .img-sale3 li:nth-child(2){
+    color: #b10522;
+  }
+  .img-sale3 img:hover{
+    transform: translateY(-10px);
+  }
+  .img-sale1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img-sale1-button{
+    position: absolute;
+    left: 46%;
+    top: 95%;
+    padding: 10px 20px;
+    transform: translateY(-50%);
+  }
+  .img-sale3 img{
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    transition: all 0.5s ease;
+  }
+  .img-sale3 button{
+    background-color: #F1F1F1;
+    padding: 3px;
+    margin: 0px 4px;
+    border: none;
+    float: left;
+  }
+  .img-sale3-text{
+    text-align: left;
+  }
+  .DMNB {
+    display: flex;
+    flex-direction: column; 
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .DMNB1,
+  .DMNB2 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  .DMNB-text{
+    font-family: "Arial Black Gadget";
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  
+  .DMNB1 li,
+  .DMNB2 li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+    cursor: pointer;
+  }
+  
+  .DMNB1 img,
+  .DMNB2 img {
+    width: 50px; 
+  }
+  
+  /* .DMNB2 {
+    margin-top: 20px;
+    text-align: center;
+    
+  } */
+  .KM-text{
+    font-family: "Arial Black Gadget";
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .KM-img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .DV{
+    margin-top: 200px;
+    list-style: none;
+    background-color: rgba(253, 3, 3, 0.781);
+    border-radius: 10px;
+    height: 200px;
+  }
+  .DV-text{
+    color: white;
+    padding: 15px 22px;
+    
+  }
+  .DV-text a{
+    float: right;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.DV-border{
+  display: flex;
+}
+.DV-border li{
+  border: 1px solid #fff;
+  height: 100px;
+  border-radius: 10px;
+  width: 20%;
+  cursor: pointer;
+}
+.DV-border li:nth-child(1){
+  background-color: #dceeff;
+}
+.DV-border li:nth-child(2){
+  background-color: #fef5cf;
+}
+.DV-border li:nth-child(3){
+  background-color: #ffefdb;
+}
+.DV-border li:nth-child(4){
+  background-color: #e1fecf;
+}
+.DV-border-icon{
+margin-top: 15px;
+margin-left: 20px;
+}
+.DV-border-text{
+  margin-left: 40px;
+  margin-top: -18px;
+}
+.DV-border-text a{
+  color: #b10522;
+}
+.CN1{
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.CN-text{
+  color: black;
+  padding: 15px 22px;
+}
+.CN-text a{
+  float: right;
+  font-size: 16px;
+  cursor: pointer;
+}
+.CN-img{
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+}
+.CN-img li img{
+  max-width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.CN-img li{
+  width: 30%;
+}
+.CN{
+  display: flex;
+}
+.CN-img-1{
+  margin-top: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.detail{
+  display: flex;
+  background-color: rgba(196, 226, 236, 0.548);
+}
+.TS{
+  display: flex;
+  margin-top: 30px;
+}
+
+.TS-img{
+  width: 370px;
+  height: 370px;
+}
+.TS-gia1{
+  text-align: center;
+  padding: 20px;
+}
+.TS-gia-button{
+  text-align: center;
+  padding: 10px;
+  
+}
+.TS-gia1 a{
+  color: #b10522;
+  font-size: 30px;
+}
+.TS-gia1-button {
+  border: none;
+  background-color: #f89009;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.TS-gia2-button {
+  border: none;
+  background-color: #09f;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.TSKT-text{
+  font-size: 30px;
+  text-align: left;
+}
+.TSKT-table, tr, th{
+  border-bottom: none;
+  border-collapse: collapse;
+  padding: 5px 10px;
+  margin-top: 30px;
+  text-align: left;
+  /* background-color: #cccccc21; */
+}
+.TSKT-table tbody tr:nth-child(1){
+  background-color: #cccccc81;
+}
+.TSKT-table tbody tr:nth-child(2){
+  background-color: whitesmoke;
+}
+.TSKT-table tbody tr:nth-child(3){
+  background-color: #cccccc81;
+}
+.TSKT-table tbody tr:nth-child(4){
+  background-color: whitesmoke;
+}
+.TSKT-table tbody tr:nth-child(5){
+  background-color: #cccccc81;
+}
+.TSKT-table tbody tr:nth-child(6){
+  background-color: whitesmoke;
+}
+.TSKT-table tbody tr:nth-child(7){
+  background-color: #cccccc81;
+}
+.TSKT-table tbody tr:nth-child(8){
+  background-color: whitesmoke;
+}
+.TSKT-table tbody tr:nth-child(9){
+  background-color: #cccccc81;
+}
+.TSKT-table tbody tr:nth-child(10){
+  background-color: whitesmoke;
+}
+.TSKT-button{
+  text-align: center;
+  margin-top: 30px;
+}
+.TSKT-button1{
+  padding: 15px 50px;
+  border-radius: 5px;
+  border-color: #09f;
+  color: #09f;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.TSKT-button1:hover{
+  color: white;
+  background-color: #09f;
+}
+.DG h4{
+  text-align: center;
+  margin: 40px;
+  font-size: 30px;
+}
+.DG div a{
+  color: #09f;
+  cursor: pointer;
+}
+.DG div:nth-child(2){
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.DG div:nth-child(3){
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+  margin-top: 20px;
+}
+.DG div:nth-child(4){
+  margin-top: 20px;
+}
+.DG div:nth-child(5){
+  margin-top: 10px;
+  text-align: center;
+}
+.DG div:nth-child(6){
+  margin-top: 20px;
+}
+.DG div:nth-child(8){
+  margin-top: 20px;
+}
+.DG div:nth-child(10){
+  margin-top: 20px;
+}
+.DG div:nth-child(7){
+  margin-top: 10px;
+  text-align: center;
+}
+.DG div:nth-child(9){
+  margin-top: 10px;
+  text-align: center;
+}
